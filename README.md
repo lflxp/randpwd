@@ -1,0 +1,2 @@
+# randpwd
+RAND PASSWORD
