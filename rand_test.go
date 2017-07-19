@@ -23,6 +23,15 @@ func TestGetHardPassword(t *testing.T) {
 	}
 }
 
+func TestGetCommonPassword(t *testing.T) {
+	tmp := GetCommonPassword(10)
+	if tmp != "" {
+		t.Log(fmt.Sprintf("ok : %s", tmp))
+	} else {
+		t.Fatal(fmt.Sprintf("fail : None"))
+	}
+}
+
 func BenchGetEasyPassword(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		tmp := GetEasyPassword(10)
