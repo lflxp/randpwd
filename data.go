@@ -134,7 +134,6 @@ var QI map[string]string = map[string]string{
 	".": ".",
 	"@": "@",
 	"~": "~",
-	"]": "]",
 }
 
 var Data map[string]string = map[string]string{
