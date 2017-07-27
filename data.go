@@ -128,7 +128,6 @@ var QI map[string]string = map[string]string{
 	"7": "7",
 	"8": "8",
 	"9": "9",
-	"+": "+",
 	"*": "*",
 	"=": "=",
 	".": ".",
